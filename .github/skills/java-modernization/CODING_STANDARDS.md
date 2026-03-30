@@ -1,0 +1,14 @@
+# Coding standards
+- Generated Java code must be self-explanatory.
+- No comments in production code unless strictly necessary.
+- If a comment is necessary, it must be in English.
+- Constructor injection only.
+- Avoid field injection.
+- Avoid broad catch(Exception).
+- Preserve or improve structured logging.
+- Maintain correlation-id propagation.
+- Prefer immutable local design where reasonable.
+- Prefer Java records for immutable data carriers when appropriate.
+- Consider virtual threads for suitable I/O-bound concurrency use cases.
+- Keep methods small and intention-revealing.
+- Use expressive names.
