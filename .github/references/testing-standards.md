@@ -1,0 +1,12 @@
+# Testing standards
+- Use JUnit where supported by the project ecosystem.
+- Prefer AssertJ assertions.
+- Prefer Mockito for mocking.
+- Prefer parameterized tests when they reduce repetition.
+- Test method names should follow:
+  - `should_return_x_when_y()`
+  - `should_do_x_when_y()`
+- Unit tests should use:
+  - `// Arrange`
+  - `// Act`
+  - `// Assert`
