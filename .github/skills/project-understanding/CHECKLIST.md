@@ -1,0 +1,12 @@
+# Checklist
+- Project type identified
+- Java version identified
+- Module list documented
+- Entry points documented
+- Main runtime sequence documented
+- External integrations documented
+- Configuration and secret sources documented
+- Error handling and retries documented
+- Logging and tracing approach documented
+- CI/CD workflow documented
+- Open questions listed
