@@ -1,0 +1,11 @@
+# Lambda checklist
+- Handler entry point is clear
+- Event contract is validated
+- Streams are closed
+- Temporary files are deleted
+- Timeouts are considered
+- Idempotency is considered
+- Retries are safe
+- AWS clients are reused where appropriate
+- Correlation ID is propagated
+- Logging is structured
