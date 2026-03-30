@@ -1,0 +1,17 @@
+# Audit checklist
+- Architecture smells
+- Code smells
+- Security smells
+- Vulnerability clues in dependencies and build configuration
+- Memory and resource leaks
+- Blocking and performance issues
+- Exception handling gaps
+- Logging gaps
+- Correlation and MDC propagation gaps
+- Missing retries or bad retries
+- Idempotency gaps
+- Temporary file and stream cleanup issues
+- Test quality issues
+- Checkstyle risk areas
+- Records opportunities
+- Virtual-thread opportunities
