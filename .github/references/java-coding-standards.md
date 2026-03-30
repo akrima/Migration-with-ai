@@ -1,0 +1,12 @@
+# Java coding standards
+- Use constructor injection.
+- Prefer expressive names over comments.
+- Keep methods small and intention-revealing.
+- Use `var` for obvious local types.
+- Avoid broad catch blocks.
+- Use AssertJ in tests.
+- Use Mockito for mocking.
+- Prefer parameterized tests where useful.
+- Respect `checkstyle.xml`.
+- Use records for immutable carriers when appropriate.
+- Consider virtual threads for suitable I/O-bound concurrency.
