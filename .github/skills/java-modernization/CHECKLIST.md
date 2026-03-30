@@ -1,0 +1,18 @@
+# Modernization checklist
+- Java version updated if approved
+- Maven compiler settings updated
+- Surefire/Failsafe checked
+- Dependency vulnerabilities reviewed and remediated where feasible
+- Multi-module version centralization applied in parent properties where applicable
+- Record opportunities reviewed
+- Virtual-thread opportunities reviewed
+- JUnit version aligned
+- Mockito aligned
+- AssertJ aligned
+- Cucumber aligned
+- Spring Boot updated for EKS if approved and feasible
+- Tests renamed to required convention
+- Arrange/Act/Assert comments added
+- Constructor injection enforced
+- `var` applied selectively
+- Checkstyle compliance preserved
